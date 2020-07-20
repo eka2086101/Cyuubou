@@ -10,13 +10,15 @@ target 'CyuubouLand' do
   pod 'PKHUD'
   pod 'Firebase/Core'
   pod 'Firebase/Auth' 
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'FirebaseUI/Storage'
   pod 'FirebaseUI/Auth'
-
   pod 'FirebaseUI/Google'  
   pod 'FirebaseUI/Facebook'
   pod 'FirebaseUI/OAuth' # Used for Sign in with Apple, Twitter, etc
   pod 'FirebaseUI/Phone'
   pod 'GoogleSignIn'
   pod 'FBSDKLoginKit'
-
+  pod 'FirebaseFirestoreSwift'
 end

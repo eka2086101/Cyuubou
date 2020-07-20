@@ -1,6 +1,14 @@
 import SwiftUI
+import Firebase
+//import FirebaseFirestore
+//import FirebaseFirestoreSwift
+import FirebaseAuth
+//import FirebaseStorage
+//import SDWebImage
+
 
 struct HomeView: View {
+
     
     var categories: [String: [Special]] {
         Dictionary(
