@@ -8,13 +8,12 @@
 
 import Foundation
 
-
 class YoutubeSearcher: ObservableObject {
     @Published var results:Results?
     // 最大検索数
     let maxResults = "10"
     // APIKeyを設定
-    let APIKey = "AIzaSyDjgGB-E8K0Ku58sPk9YZQTeFh5rMh9Ypc"
+    let APIKey = "AIzaSyCRZKpmYmaAoZs8w1bgqfbSiOi2BLh0CFs"
     
     func search(keyword: String) ->() {
         // リクエスト用の文字列を生成
@@ -46,5 +45,3 @@ class YoutubeSearcher: ObservableObject {
         task.resume()
     }
 }
-
-
